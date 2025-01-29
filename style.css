@@ -1,7 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+
+.alex-brush-regular {
+    font-family: "Alex Brush", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/*Header*/
+header {
+	font-family: 'Helvetica';
+    font-weight: bolder;
+	align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+	gap: 2rem;
+}
+
+h1{
+    font-family: 'Alex Brush';
+    font-size: 4rem;
+}
+
+/*Body*/
+
+body{
+    background: #E30016;
+    color: #FFFFFF;
+    font-family: 'Helvetica';
+    justify-content: center;
+}
+
+h2 {
+    font-family: 'Alex Brush';
+    font-size: 3rem;
+  }
+
+img{
+    width: 500px;
+    box-shadow: 1px 0 10px #000000;
+}
+
 /*Footer*/
 
 footer {
-    color: #E30016;
+    color: #FFFFFF;
     font-size: 15px;
     padding-top: 10px;
     text-align: right;
